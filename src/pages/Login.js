@@ -49,7 +49,7 @@ class Login extends React.Component {
               type="text"
               name="login"
               id="login"
-              data-testid="login-name-input"
+              testid="login-name-input"
               onChange={ this.inputChange }
               value={ login }
             />
